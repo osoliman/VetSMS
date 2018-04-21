@@ -11,7 +11,7 @@ Name2 <- rep(c("C","D"),5)
 Physiology <- c(11:20)
 Second <- data.frame(cbind(ID2,Name2,Physiology))
 
-ui = shinyUI(
+ui <- shinyUI(
  fluidPage(
  titlePanel("VetSMS"),
  sidebarPanel(
